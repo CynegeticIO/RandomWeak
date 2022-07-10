@@ -14,11 +14,11 @@ import gc
 import binascii
 import pandas as pd
 
-    
+m = 1000000
 adr = []
 pk = []
 
-for i in range(0,1000000):
+for i in range(0,m):
     
     private_key = keccak_256(token_bytes(1)).digest()
     public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
@@ -29,17 +29,8 @@ for i in range(0,1000000):
 adr_df = pd.DataFrame(adr,columns=["Adr"])
 pk_df = pd.DataFrame(pk,columns=["Pk"])
 
+all_df = pd.concat([adr_df, pk_df], axis=1)
 
-adr = []
-pk = []
+all_df.to_csv('20220710.csv')
 
-for i in range(0,100000):
-    
-    private_key = token_hex(32)
-    public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
-    addr = keccak_256(public_key).digest()[-20:]
-    pk.append(str('0x'+private_key.hex()).lower())
-    adr.append(str('0x'+addr.hex()).lower())
-  
-adr_df = pd.DataFrame(adr,columns=["Adr"])
-pk_df = pd.DataFrame(pk,columns=["Pk"])
+
