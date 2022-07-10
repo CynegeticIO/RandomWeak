@@ -20,7 +20,22 @@ pk = []
 
 for i in range(0,1000000):
     
-    private_key = keccak_256(token_bytes(32)).digest()
+    private_key = keccak_256(token_bytes(1)).digest()
+    public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
+    addr = keccak_256(public_key).digest()[-20:]
+    pk.append(str('0x'+private_key.hex()).lower())
+    adr.append(str('0x'+addr.hex()).lower())
+  
+adr_df = pd.DataFrame(adr,columns=["Adr"])
+pk_df = pd.DataFrame(pk,columns=["Pk"])
+
+
+adr = []
+pk = []
+
+for i in range(0,100000):
+    
+    private_key = token_hex(32)
     public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
     addr = keccak_256(public_key).digest()[-20:]
     pk.append(str('0x'+private_key.hex()).lower())
