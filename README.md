@@ -1,23 +1,29 @@
-# RandomWeak
-The project starts by contemplating the random generation of different weak entropies that may entrain common features in different methods in the creation of Private Keys for the different networks in the BlockChain.
+# RandomWeak Project
 
-# WalletGenerator
+## Description 
 
-<img src="https://img2.helpnetsecurity.com/posts2019/ise-042019-1.jpg" width="512"/>
-
-## Description
+### Module 1
 
 The idea of this repository is that anyone will be able to create an Ethereum, Avalanche, Arbitrum, BSC, Fantom or Polygon address either by uniquely creating their private key without having derived the mnemonic or by generating the mnemonic for later derivation.
 
 After creating your Ethereum address you will be able to import it into Metamask, TrustWallet or any Wallet that you prefer, to start working with your new self-created address.
 
+### Module 2
+
+The project starts by contemplating the random generation of different weak entropies that may entrain common features in different methods in the creation of Private Keys for the different networks in the BlockChain.
+
 ## Getting Started
+
+### How to generate a Wallet?
+
+<img src="https://img2.helpnetsecurity.com/posts2019/ise-042019-1.jpg" width="512"/>
 
 ### What do you Need?
 
 * Python 3.9
 
 * Any IDE Python (Spyder, PyCharm, KDevelop, SlickEdit ...)
+
 
 ### Installing Dependences
 
@@ -90,6 +96,8 @@ Project Link: [https://github.com/BetaShelley/RandomWeak](https://github.com/Bet
 
 Inspiration by:
 
+* [Arthur Koziel](https://www.arthurkoziel.com/generating-ethereum-addresses-in-python/)
+* [SHA-256 Online Tool](https://emn178.github.io/online-tools/sha256.html)
 * [Vanity-C++](https://github.com/johguse/profanity)
 * [Vanity-Rust](https://rustrepo.com/repo/Limeth-ethaddrgen-rust-cryptography)
 * [Vanity-JavaScript](https://github.com/MyEtherWallet/VanityEth)
