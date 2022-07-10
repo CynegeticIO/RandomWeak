@@ -121,14 +121,13 @@ def get_pub(priv_key):
 
 def main():
     import hashlib
-    priv_key = int(hashlib.sha3_256(b"Led Zeppelin - No Quarter").hexdigest(), 16)
+    priv_key = int(hashlib.sha3_256(b" ").hexdigest(), 16)
     print('priv key :', hex(priv_key))
     pubx, puby = get_pub(priv_key)
     print('pub key x:', hex(pubx))
     print('pub key y:', hex(puby))
 
-
-
+main()
 
 
 
