@@ -96,6 +96,7 @@ Project Link: [https://github.com/BetaShelley/RandomWeak](https://github.com/Bet
 
 Inspiration by:
 
+* [ISE Ethercombing](https://www.ise.io/casestudies/ethercombing/)
 * [Arthur Koziel](https://www.arthurkoziel.com/generating-ethereum-addresses-in-python/)
 * [SECP256k1](https://en.bitcoin.it/wiki/Secp256k1)
 * [SHA-256 Online Tool](https://emn178.github.io/online-tools/sha256.html)
