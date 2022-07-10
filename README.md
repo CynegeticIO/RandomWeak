@@ -79,13 +79,11 @@ print('eth addr: 0x' + addr.hex())
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-[![card](https://github-readme-stats.vercel.app/api?username=CynegeticIO&theme=default&show_icons=true)](https://github.com/BetaShelley/RandomWeak)
-
 ## Contact
 
 Cynio - [@CynegeticIO](https://twitter.com/CynegeticIO) - team@cynegetic.io
 
-Project Link: [https://github.com/CynegeticIO/WalletGenerator](https://github.com/CynegeticIO/WalletGenerator)
+Project Link: [https://github.com/BetaShelley/RandomWeak](https://github.com/BetaShelley/RandomWeak)
 
 
 ## Acknowledgments
