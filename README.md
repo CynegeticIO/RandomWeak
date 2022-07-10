@@ -35,6 +35,7 @@ from sha3 import keccak_256
 # Ethereum private keys are based on KECCAK-256 hashes (https://keccak.team/keccak.html).
 # To generate such a hash we use the `keccak_256` function 
 # from the `pysha3` module on a random 32 byte seed:
+
 private_key = keccak_256(token_bytes(32)).digest()
 
 ## STEP 2: DERIVE THE PUBLIC KEY FROM THE PRIVATE KEY ##
@@ -44,6 +45,7 @@ private_key = keccak_256(token_bytes(32)).digest()
 # Ethereum uses the `secp256k1` curve ECDSA. 
 # `coincurve` uses this as a default so we don't need to 
 # explicitly specify it when calling the function:
+
 public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
 
 # The Ethereum Yellow Paper (https://ethereum.github.io/yellowpaper/paper.pdf)
@@ -61,6 +63,7 @@ public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1
 # As specified in the Ethereum Yellow Paper (https://ethereum.github.io/yellowpaper/paper.pdf)
 # we take the right most 20 bytes of the 32 byte `KECCAK` hash of the 
 # corresponding ECDSA public key.
+
 addr = keccak_256(public_key).digest()[-20:]
 
 print('private_key:', private_key.hex())
@@ -76,7 +79,7 @@ print('eth addr: 0x' + addr.hex())
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-[![card](https://github-readme-stats.vercel.app/api?username=CynegeticIO&theme=default&show_icons=true)](https://github.com/CynegeticIO/)
+[![card](https://github-readme-stats.vercel.app/api?username=CynegeticIO&theme=default&show_icons=true)](https://github.com/BetaShelley/RandomWeak)
 
 ## Contact
 
