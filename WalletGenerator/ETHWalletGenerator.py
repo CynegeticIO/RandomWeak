@@ -18,7 +18,7 @@ import pandas as pd
 adr = []
 pk = []
 
-for i in range(0,1000):
+for i in range(0,72000):
     
     private_key = keccak_256(token_bytes(32)).digest()
     public_key = PublicKey.from_valid_secret(private_key).format(compressed=False)[1:]
