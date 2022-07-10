@@ -21,11 +21,11 @@ After creating your Ethereum address you will be able to import it into Metamask
 
 ### Installing Dependences
 
-```
-pip install pysha3 ethereum hdwallet bipwallet two1 pycrypto rlp pycryptodome solana
+```bash
+> pip install pysha3 ethereum hdwallet bipwallet two1 pycrypto rlp pycryptodome solana
 ```
 
-```python
+```py
 from secrets import token_bytes
 from coincurve import PublicKey
 from sha3 import keccak_256
