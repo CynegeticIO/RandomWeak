@@ -16,6 +16,7 @@ After creating your Ethereum address you will be able to import it into Metamask
 ### What do you Need?
 
 * Python 3.9
+
 * Any IDE Python (Spyder, PyCharm, KDevelop, SlickEdit ...)
 
 ### Installing Dependences
