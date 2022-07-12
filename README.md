@@ -116,6 +116,4 @@ Crypto currencies have the lowest fees.
 
 > BTC:  `bc1qnr97mmekqw5z4dgrd8v6pclpstt6jjnf63zmff`
 
-> ETH:  `0xfdc39e84f80a6ae1fd9d1f4acf22ee527ab85de9`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
