@@ -87,7 +87,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Contact
 
-Cynio - [@CynegeticIO](https://twitter.com/CynegeticIO) - team@cynegetic.io
+@CY0xF - [@CynegeticIO](https://twitter.com/CynegeticIO) - team@cynegetic.io
 
 Project Link: [https://github.com/BetaShelley/RandomWeak](https://github.com/BetaShelley/RandomWeak)
 
