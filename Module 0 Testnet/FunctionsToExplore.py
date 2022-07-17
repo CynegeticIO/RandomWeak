@@ -130,8 +130,16 @@ def main():
 main()
 
 
+"""
 
+import sqlite3
+import pandas as pd
+# Create your connection.
+cnx = sqlite3.connect('addresses.db')
 
+df = pd.read_sql_query("SELECT * FROM addresses", cnx)
+
+"""
 
 
 
