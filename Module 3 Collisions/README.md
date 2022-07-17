@@ -1,4 +1,4 @@
-# RandomWeak Project
+# Module 3 - Collisions
 
 ## Description 
 
