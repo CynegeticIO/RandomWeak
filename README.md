@@ -84,6 +84,7 @@ print('eth addr: 0x' + addr.hex())
 ## Authors
   
 [@CynegeticIO](https://twitter.com/CynegeticIO)
+[@CY0xF](https://github.com/CY0xF)
 
 ## License
 
