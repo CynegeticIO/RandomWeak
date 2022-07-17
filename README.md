@@ -12,6 +12,10 @@ After creating your Ethereum address you will be able to import it into Metamask
 
 The project starts by contemplating the random generation of different weak entropies that may entrain common features in different methods in the creation of Private Keys for the different networks in the BlockChain.
 
+### Module 3
+
+This module mainly consists in being able to develop faster and faster tools to try to detect collisions in the different addresses of ETH and its compatible networks. We are making a lot of noticeable progress in speed. Where in a first phase with CPU we were able to scan approximately 70.000 keys/second we have just reached the record of 1.250.000 keys/second.
+
 ## Getting Started
 
 ### How to generate a Wallet?
