@@ -1,4 +1,4 @@
-# RandomWeak Project
+# Module 2 - Unsafe Entropy
 
 ## Description 
 
