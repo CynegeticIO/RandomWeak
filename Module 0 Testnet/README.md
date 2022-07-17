@@ -1,4 +1,4 @@
-# RandomWeak Project
+# Module 0 - Testnet
 
 ## Description 
 
