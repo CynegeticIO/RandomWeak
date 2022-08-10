@@ -31,8 +31,8 @@ Starting thread: 7 base:  0x2e6ba08162a336ba5d7e53d97078546e9f086c5fac2e548433dd
 [+] Total Keys Checked : 1252000000  [ Speed : 3123062.81 Keys/s ]  Current ETH: 0x4902633027bd1b75703fa87f1630e552814fe8fb
 [+] Total Keys Checked : 1254000000  [ Speed : 3224014.31 Keys/s ]  Current ETH: 0x7bca1912acd6a25f28501bb95f979f07ea90bde8
 [+] Total Keys Checked : 1255000000  [ Speed : 3123476.64 Keys/s ]  Current ETH: 0x7ae0b600b4e0d4b0baeb4fe4ff3ef4fae4e10489
-[+] Total Keys Checked : 1256000000  [ Speed : 1254084.42 Keys/s ]  Current ETH: 0xe1779a4e00cba70ec386fae17336f31587fd8156
-[+] Total Keys Checked : 1257000000  [ Speed : 1254671.83 Keys/s ]  Current ETH: 0x8008ee4afab77f2ed636646d008c37ce42eacf21
+[+] Total Keys Checked : 1256000000  [ Speed : 3254084.42 Keys/s ]  Current ETH: 0xe1779a4e00cba70ec386fae17336f31587fd8156
+[+] Total Keys Checked : 1257000000  [ Speed : 3254671.83 Keys/s ]  Current ETH: 0x8008ee4afab77f2ed636646d008c37ce42eacf21
 ```
 
 ## Authors
