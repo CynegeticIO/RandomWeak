@@ -19,7 +19,7 @@ from multiprocessing import Event, Process, Queue, Value, cpu_count
 eth_address_list = [line.split()[0].lower() for line in open("eth_address.txt",'r')]
 eth_address_list = set(eth_address_list)
 
-group_size = 1000000
+group_size = 500000
 #==============================================================================
     
 def CynegeticIO_Collision(cores='all'):  # pragma: no cover
@@ -107,5 +107,5 @@ def generate_key_address_pairs(counter, match, queue, r):  # pragma: no cover
 
 if __name__ == '__main__':
     print('[+] Starting.........Wait.....')
-    CynegeticIO_Collision(cores = 8)
+    CynegeticIO_Collision()
     
